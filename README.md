@@ -1,5 +1,7 @@
 # Project Structure
 
+Project Layout for Invoice Processor App. From start to finish the application takes a PDF invoice from a email inbox, locates the data, highlights it on the page, and stores it in a csv. If no error is detected in the processor, than the PDF is output along with the data. If an error is detected, then the PDf goes to the GUI with the data to be reviewed by humans. Inside the GUI there is a variety of features to aid the user in resolving uncertainties such as intelligent lookups for vendors and customers and their addresses. When documents are finished being reviewed in the gui they go to the same output location as the invoices where no error was detected in the same format.
+
 # File Processor/Manager
 
 ## monitor_directory.py
